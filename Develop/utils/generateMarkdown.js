@@ -15,10 +15,10 @@
 const generateMarkdown = (projectName, githubName) => {
   return `
   
-  # ${projectName}
+  # ${title}
 
   ## Website
-  ${githubName}
+  ${description}
   `;
   };
 
