@@ -49,7 +49,7 @@ const questions = () => {
         {
             type: 'input',
             name: 'contribute',
-            message: 'What are some guidlines to contribute to this project? (Required)',
+            message: 'What are some guidelines to contribute to this project? (Required)',
         },
         {
             type: 'input',
