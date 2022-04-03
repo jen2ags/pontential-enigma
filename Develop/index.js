@@ -1,3 +1,25 @@
+const fs = require('fs');
+const profileDataArgs = process.argv.slice(2, process.argv.length);
+ const [name, github] = profileDataArgs;
+
+const generatePage = (projectName, githubName) => {
+    return `
+    
+
+    # ${projectName}
+
+    ## Website
+    ${githubName}
+    `;
+    };
+    
+    fs.writeFile('createdREADME.md', generatePage(name, github), err => {
+        if (err) throw err;
+
+        console.log('README complete! Look at the createdREADME.md!');
+
+    });
+
 // TODO: Include packages needed for this application
 //const inquirer = require('inquirer');
 
@@ -27,4 +49,3 @@
 //init();
 
 
-const generatePage = () => 'Name: Runbuddy, Github: runbuddy@github';
