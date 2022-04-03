@@ -1,19 +1,13 @@
 const fs = require('fs');
-const profileDataArgs = process.argv.slice(2, process.argv.length);
+
+const generateMarkdown = require('./utils/generateMarkdown.js');
+
+const profileDataArgs = process.argv.slice(2);
  const [name, github] = profileDataArgs;
 
-const generatePage = (projectName, githubName) => {
-    return `
-    
 
-    # ${projectName}
-
-    ## Website
-    ${githubName}
-    `;
-    };
     
-    fs.writeFile('createdREADME.md', generatePage(name, github), err => {
+    fs.writeFile('./createdREADME.md', generateMarkdown(name, github), err => {
         if (err) throw err;
 
         console.log('README complete! Look at the createdREADME.md!');
