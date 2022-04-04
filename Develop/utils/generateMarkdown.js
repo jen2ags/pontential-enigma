@@ -1,19 +1,19 @@
 
-const generateMarkdown = () => {
+function generateMarkdown (data) {
   return `
   
   # ${data.title}
 
   ## License
-  [![license](https://img.shields.io/badge/license-${data.license}-green.svg)] (https://shields.io/)
+  [![license](https://img.shields.io/badge/license-${data.license}-green.svg)](https://shields.io/)
 
-  ## Tabls of Contents
-  - [Description] (#description)
-  - [Istallation] (#installation)
-  - [Usage] (#usage)
-  - [Contribution] (#contribution)
-  - [Test] (#test)
-  - [Questions?] (#questions?)
+  ## Table of Contents
+  - [Description](#description)
+  - [Istallation](#installation)
+  - [Usage](#usage)
+  - [Contribution](#contribution)
+  - [Test](#test)
+  - [Questions](#questions)
 
   ## Description
   ${data.description}
@@ -28,12 +28,14 @@ const generateMarkdown = () => {
   ${data.license}
 
   ## Contribution
-  ${data.contribution}
+  ${data.contribute}
 
   ## Test
   ${data.test}
 
   ## Questions?
+  Please email if you have any other questions about ${data.title}.
+
   - GitHub: [${data.github}](https://github.com/${data.github})
 
   - Email: [${data.email}](mailto:user@example.com)
