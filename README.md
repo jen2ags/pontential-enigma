@@ -10,11 +10,11 @@ The purpose of creating the readme generator was to make a straight forward tool
 * inquirer
 
 ## How it Works
-![Screencastify-readme generator](https://drive.google.com/file/d/1X35fMKXgvwohM3Duc_W8o8w-j6X16MtD/preview)
+![Screencastify-readme generator](https://github.com/jen2ags/readme-generator/blob/main/Develop/videos/Screencastify-readme%20generator.mp4)
 
 ## Screen Shot
-![Screenshot code and terminal](Develop/images/code and terminal.png)
-![Screenshot generated readme](Develop/images/generated readme.png)
+![Screenshot code and terminal](https://github.com/jen2ags/readme-generator/blob/main/Develop/images/code%20and%20terminal.png)
+![Screenshot generated readme](https://github.com/jen2ags/readme-generator/blob/main/Develop/images/generated%20readme.png)
 
 
 ## Contribution
