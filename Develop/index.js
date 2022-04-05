@@ -18,6 +18,7 @@ const generateMarkdown = require('./utils/generateMarkdown.js');
 
 // TODO: Create an array of questions for user input
 const questions = [
+
         {
             type: 'input',
             name: 'title',
@@ -107,6 +108,19 @@ const questions = [
                     return true;
                 } else {
                     console.log('Please enter your test!');
+                    return false;
+                }
+            }
+        },
+        {
+            type: 'input',
+            name: 'yourName',
+            message: 'What is your first and last name? (Required)',
+            validate: yourNameInput => {
+                if (yourNameInput) {
+                    return true;
+                } else {
+                    console.log('Please enter your first and last name!');
                     return false;
                 }
             }
