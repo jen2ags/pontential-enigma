@@ -13,8 +13,8 @@ The purpose of creating the readme generator was to make a straight forward tool
 ![Screencastify-readme generator](https://drive.google.com/file/d/1X35fMKXgvwohM3Duc_W8o8w-j6X16MtD/preview)
 
 ## Screen Shot
-![Screenshot code and terminal](https://github.com/jen2ags/Karaoke-Kings/blob/develop/assets/images/karaoke%20kings%20screenshot%20final.png)
-![Screenshot generated readme]()
+![Screenshot code and terminal](Develop/images/code and terminal.png)
+![Screenshot generated readme](Develop/images/generated readme.png)
 
 
 ## Contribution
